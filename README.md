@@ -1,3 +1,9 @@
+# TODO(sragsdale):
+- Add JSON link in README
+- Add hyperlink to python script
+- Try different background color
+- Clean up HTML so it's easy to add to any site (with example for window-in-window)
+
 # Graphs
 Short code sample of the LTC.WRK graph implemented using [vasturiano's force-graph library](https://github.com/vasturiano/3d-force-graph). 
 
