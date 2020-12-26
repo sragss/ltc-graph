@@ -1,0 +1,89 @@
+Worldly Wisdom
+-Lollapalooza Effects
+-On Having Opinions
+-Choosing Important Problems
+-The Ignorance Paradox
+-The Map is Not the Terrain
+-Mental Models
+-The Three Buckets
+-Advantageous Divergence
+-First Principles Thinking
+-Second-Order Thinking
+-Systems Thinking
+Physics
+-Galilean Relativity
+-Hysteresis
+-The Laws of Thermodynamics
+-Newton's Laws of Motion
+-Complexity
+-Chaos Theory
+-Emergence
+-Momentum
+-Velocity
+-Friction
+-Equilibrium
+Chemistry
+-Chemical Reactions
+-Critical Mass
+-Catalysts
+-Phase Transitions
+-Alloying
+-Half-Life
+Mathematics
+-Compounding
+-Power Laws
+-Algorithms
+-Inversion
+Statistics & Probability
+-Bayes' Theorem
+-Probability Distribution
+-Correlation vs Causation
+-Regression to the Mean
+-Hypothesis Testing
+-Expected Value
+-Sample Size
+-Permuations & Combinations
+-Sensitivity Analysis
+-Randomness
+Engineering
+-Margin of Saftey
+-Leverage
+-Redundancy
+-Reverse Engineering
+-Scale Effects
+-Feedback Loops
+-Designing for the Bottom
+-Trade-Offs
+-Structure & Function
+Experimenting
+-The Scientific Method
+-Thought Experiments
+-Randomized Controlled Experiments
+-Simulation & Modeling
+-The Observer Effect
+-Proximate vs. Root Cause
+-Lateral Thinking
+-Fresh Eyes
+-Back of the Envelope Calculations
+Technology and Computer Science
+-Moore's Law
+-Metcalfe's Law
+-Information Theory
+-Technical Debt
+-Premature Optimization
+-Abstractions
+-Recursion
+Biology & Nature
+-Sustainability
+-Natural Selection
+-Evolution
+-The Red Queen Effect
+-Dialectical Materialism
+-Hierarchies
+-Nature vs. Nurture
+-Signaling
+-Symbiosis
+-The Goal Gradient Hypothesis
+-Ecosystem
+-Niche
+-Dunbar's Number
