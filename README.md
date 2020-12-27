@@ -1,15 +1,8 @@
-# TODO(sragsdale):
-- Add JSON link in README
-- Add hyperlink to python script
-- Try different background color
-- Clean up HTML so it's easy to add to any site (with example for window-in-window)
-
 # Graphs
 Short code sample of the LTC.WRK graph implemented using [vasturiano's force-graph library](https://github.com/vasturiano/3d-force-graph). 
 
 # Generating the graph
 The graph input consists of a JSON file describing `nodes` and `links`. This can be manually edited. `data/ltc.json` contains the example graph structure. Note that some nodes have a "hyper" field which is what they'll link to. In the example json all those with the hyper field link to `https://www.yahoo.com`.
-TODO(sragsdale): link the JSON file.
 
 
 ## Python generation script `list-to-graph.py`

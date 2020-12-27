@@ -32,6 +32,8 @@
             node, // lookAt ({ x, y, z })
             3000  // ms transition duration
           );
+
+          // If the node has a hyper property, navigate after animation is complete
           if (node.hasOwnProperty('hyper')) {
             console.log(node)
             setTimeout(function() {
