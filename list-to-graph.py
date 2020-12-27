@@ -45,34 +45,49 @@ def build_from_graph(graph):
     child_index = 2
     for parent in graph:
         parent_json = {}
-        parent_json["id"] = parent
+        parent_id, parent_hyper = get_id_and_link_from_line(parent)
+        parent_json["id"] = parent_id 
         parent_json["group"] = parent_index
-        parent_json["hyper"] = "https://www.google.com"
         json_result["nodes"].append(parent_json)
+        if (parent_hyper != None):
+            parent_json["hyper"] = parent_hyper
 
         root_link = {}
         root_link["source"] = ROOT_NODE
-        root_link["target"] = parent
+        root_link["target"] = parent_id
         root_link["value"] = 1
         json_result["links"].append(root_link)
         for child in graph[parent]:
             child_json = {}
-            child_json["id"] = child
+            child_id, child_hyper = get_id_and_link_from_line(child)
+            child_json["id"] = child_id 
             child_json["group"] = child_index
             json_result["nodes"].append(child_json)
+            if (child_hyper != None):
+                child_json["hyper"] = child_hyper
 
             link_json = {}
-            link_json["source"] = parent
-            link_json["target"] = child
-            link_json["value"] = 2
+            link_json["source"] = parent_id
+            link_json["target"] = child_id
+            link_json["value"] = 1
             json_result["links"].append(link_json)
 
         child_index += 1
 
     return json.dumps(json_result, indent=4)
 
-in_filename = "data/blas.txt"
-out_filename = "data/out.json"
+"""
+    Splits line like "Worldly Wisdom,https://www.google.com into id,hyperlink
+"""
+def get_id_and_link_from_line(line):
+    split = line.split(',')
+    if (len(split) == 2):
+        return split[0], split[1]
+    else:
+        return line, None
+
+in_filename = "data/in.txt"
+out_filename = "data/ltc.json"
 
 with open (in_filename, "r") as in_file:
     data = in_file.readlines()

@@ -32,9 +32,12 @@
             node, // lookAt ({ x, y, z })
             3000  // ms transition duration
           );
-          setTimeout(function() {
-		location.href = node.hyper	
-	  }, 3000);
+          if (node.hasOwnProperty('hyper')) {
+            console.log(node)
+            setTimeout(function() {
+              location.href = node.hyper	
+            }, 3000);
+          }
         })
         .nodeThreeObject(node => {
           const sprite = new SpriteText(node.id);
@@ -45,7 +48,9 @@
         });
 
     // Spread nodes a little wider
-    Graph.d3Force('charge').strength(-120);
+    Graph.d3Force('charge').strength(-220);
+
+    // Bloom filter
     const bloomPass = new UnrealBloomPass();
     bloomPass.strength = 2;
     bloomPass.radius = 1;

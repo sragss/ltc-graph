@@ -1,29 +1,29 @@
-Worldly Wisdom
--Lollapalooza Effects
--On Having Opinions
--Choosing Important Problems
--The Ignorance Paradox
--The Map is Not the Terrain
--Mental Models
--The Three Buckets
--Advantageous Divergence
--First Principles Thinking
--Second-Order Thinking
--Systems Thinking
-Physics
--Galilean Relativity
--Hysteresis
--The Laws of Thermodynamics
--Newton's Laws of Motion
--Complexity
--Chaos Theory
--Emergence
--Momentum
--Velocity
--Friction
--Equilibrium
-Chemistry
--Chemical Reactions
+Worldly Wisdom,https://www.yahoo.com
+-Lollapalooza Effects,https://www.yahoo.com
+-On Having Opinions,https://www.yahoo.com
+-Choosing Important Problems,https://www.yahoo.com
+-The Ignorance Paradox,https://www.yahoo.com
+-The Map is Not the Terrain,https://www.yahoo.com
+-Mental Models,https://www.yahoo.com
+-The Three Buckets,https://www.yahoo.com
+-Advantageous Divergence,https://www.yahoo.com
+-First Principles Thinking,https://www.yahoo.com
+-Second-Order Thinking,https://www.yahoo.com
+-Systems Thinking,https://www.yahoo.com
+Physics,https://www.yahoo.com
+-Galilean Relativity,https://www.yahoo.com
+-Hysteresis,https://www.yahoo.com
+-The Laws of Thermodynamics,https://www.yahoo.com
+-Newton's Laws of Motion,https://www.yahoo.com
+-Complexity,https://www.yahoo.com
+-Chaos Theory,https://www.yahoo.com
+-Emergence,https://www.yahoo.com
+-Momentum,https://www.yahoo.com
+-Velocity,https://www.yahoo.com
+-Friction,https://www.yahoo.com
+-Equilibrium,https://www.yahoo.com
+Chemistry,https://www.yahoo.com
+-Chemical Reactions,https://www.yahoo.com
 -Critical Mass
 -Catalysts
 -Phase Transitions
